@@ -12,10 +12,10 @@
 var events = require('events'),
   util = require('util');
 
-/**** Make Phant an event emitter ****/
+/**** Make Phant an event emitter inheritance ****/
 util.inherits(Phant, events.EventEmitter);
 
-/**** Phant prototype ****/
+/**** Phant prototype for adding functions ****/
 var app = Phant.prototype;
 
 /**** Expose Phant ****/
