@@ -41,14 +41,14 @@
     "qs": "^1.2.2",
     "routes": "^1.2.0",
     "wez-telnet": "^0.1.1",
-    "xml": "0.0.12"
+    "xml": "0.0.12",
+    "phant-manager-http": "/var/www/phant/phant-manager-http"
   },
   "optionalDependencies": {
     "dotenv": "^0.2.5",
     "phant-keychain-hex": "^0.2.1",
     "phant-stream-csv": "^2.0.3",
-    "phant-meta-nedb": "^3.0.0",
-    "phant-manager-http": "/home/pi/Documents/phant_mod/phant-manager-http"
+    "phant-meta-nedb": "^3.0.0"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.7.0",
